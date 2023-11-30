@@ -1,0 +1,37 @@
+.bid-card {
+    width: calc(
+      33.33% - 90px
+    ); /* Set width to one-third of the container with margin included */
+    flex: 0 0 auto; /* Allow the width to be flexible, but don't allow shrinking or growing */
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: right;
+    background-color: #ffbf69;
+    border-radius: 20px;
+    margin-top: 20px;
+  }
+  .card-button {
+    background-color: #372c2e; /* Change the background color as needed */
+    color: #fff; /* Change the text color as needed */
+    border: none;
+    padding: 10px 15px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 3px;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+    border-radius: 10px;
+  }
+  
+  .card-button:hover {
+    background-color: black; /* Change the background color on hover */
+  }
+  @media screen and (max-width: 768px) {
+    .bid-card {
+      width: calc(50% - 2px); /* Adjusted width for smaller screens */
+      margin: 10px auto;
+    }
+  }
